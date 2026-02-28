@@ -1,0 +1,137 @@
+Skip to main content
+Google Quantum AI
+Discover
+
+Our Work
+
+About
+
+Careers
+Search
+/
+Sign in
+Our Work
+Quantum Computer
+Research Publications
+Open Source Tools
+A verifiable quantum advantage towards real world applications: Quantum Echoes Learn more
+Explore our quantum software
+Our software stack includes open-source frameworks, simulators, device interfaces, and utility libraries. Together, they let you create and work with quantum programs for a variety of applications.
+
+Programming Frameworks
+Frameworks like Cirq and Qualtran allow developers to write programs for state of the art quantum computers, and the fault-tolerant quantum computers of the future. They offer the tools and structure you need to design, manipulate, and optimize quantum circuits and algorithms, either at an abstract hardware-agnostic level, or for execution on a specific quantum chip or simulator.
+
+
+Cirq
+An open-source quantum framework for building and experimenting with noisy intermediate scale (NISQ) algorithms on near term processors.
+
+Start using Cirq open_in_new GitHub repository
+
+Qualtran
+Qualtran (quantum algorithms translator) is a set of abstractions for representing quantum programs and a library of quantum algorithms expressed in that language to support quantum algorithms research.
+
+Start using Qualtran open_in_new GitHub repository
+Featured Libraries
+
+Library
+OpenFermion
+An open-source library for translating problems in chemistry and materials science into quantum circuits that can be executed on existing platforms.
+
+arrow_forward
+
+Library
+TensorFlow Quantum
+A quantum machine learning library for rapid prototyping of hybrid quantum-classical ML models from within TensorFlow.
+
+arrow_forward
+
+Library
+qsim
+A fast quantum circuit simulator that integrates with Cirq and makes it easy to power quantum simulations with high-performance classical hardware.
+
+arrow_forward
+Community
+We are dedicated to cultivating an open and inclusive community to build software for near-term quantum computers, and we welcome contributions from the community.
+
+
+
+Join our regular open-source meetings
+We host virtual open-source meetings every other week. Join our email lists to get invited to the ongoing open-source meetings relevant to your work.
+
+Cirq Biweekly Sync
+Subscribe: cirq-dev
+
+Qualtran Biweekly Sync
+Subscribe: qualtran-dev
+
+Join our team
+We’re looking for talented people to join our team to push the state of the art in quantum computing.
+
+Join us
+
+Connect with us
+Twitter
+YouTube
+Google Developers
+About Google
+Google Products
+Privacy
+Terms
+Terms
+Privacy
+The new page has loaded.
+
+As a engineering student , I want to create projects on quantum computer feild and show my intrest in it , so with the avialable tools , I want to understand what are these toole of use and what projects I can build.
+
+
+
+
+For an engineering student, Google’s Quantum AI software stack offers a powerful transition from "classical" programming to the quantum realm. These tools are designed to work together, allowing you to move from basic circuit design to complex machine learning and materials science simulations.
+
+🛠️ Understanding the Google Quantum Tools
+Tool	Core Purpose	Engineering Use Case
+Cirq	The "Foundational" Framework	Building and simulating quantum circuits (logic gates, noise modeling, and hardware optimization).
+Qualtran	Algorithm Resource Analysis	Estimating how many qubits and gates a "future" fault-tolerant algorithm will need.
+TensorFlow Quantum	Hybrid AI/ML	Creating "Quantum Neural Networks" (QNNs) that combine classical ML with quantum data.
+OpenFermion	Materials/Chemistry	Simulating electronic structures, chemical bonds, and material properties.
+qsim	High-Performance Simulator	Simulating larger circuits (up to 30+ qubits) on your classical CPU/GPU.
+🚀 Suggested Projects for Your Portfolio
+Since you want to show interest and technical depth, here are three project ideas ranging from beginner to advanced.
+
+1. The "Quantum Weather" Predictor (Beginner)
+Tools: Cirq + Open-source Datasets
+
+The Idea: Use a quantum circuit to generate truly random numbers (QRNG) or simulate a simple probabilistic system.
+
+Engineering Focus: Compare "pseudo-random" classical numbers with "quantum-random" numbers. Build a small Python app that pulls weather data and uses a quantum circuit to predict local variance.
+
+Why it works: It shows you understand the basics of Superposition and how to interface quantum code with real-world data.
+
+2. Hybrid Quantum-Classical Image Classifier (Intermediate)
+Tools: TensorFlow Quantum (TFQ) + Cirq
+
+The Idea: Build a "Quantum Convolutional Neural Network" (QCNN) to classify simple images (like MNIST digits).
+
+Engineering Focus: Implement a hybrid model where a classical neural network extracts features, and a quantum circuit performs the final classification.
+
+Why it works: This is a hot research topic. Demonstrating that you can use TensorFlow Quantum proves you can work with "Hybrid Algorithms," which are the current industry standard.
+
+3. Molecular Energy Surface Simulation (Advanced/Domain Specific)
+Tools: OpenFermion + Cirq
+
+The Idea: Simulate the ground state energy of a simple molecule (like $H_2$ or $LiH$) across different bond lengths.
+
+Engineering Focus: Use the Variational Quantum Eigensolver (VQE) algorithm. Plot the "Energy vs. Distance" curve to find the stable bond length.
+
+Why it works: It demonstrates that you can apply quantum computing to Materials Science and Chemistry, two of the biggest target industries for quantum technology.
+
+📈 How to Get Started
+Environment Setup: Use Google Colab. It comes with many libraries pre-installed and gives you free access to the high-performance hardware needed for simulators like qsim.
+
+Learn the "Bloch Sphere": Before coding, understand how a single qubit moves.
+
+Documentation: Start with the Cirq Tutorials. They have a "Hello Qubit" example that takes 5 minutes to run.
+
+Would you like me to provide a starter Python code snippet for a simple Quantum Random Number Generator using Cirq?
+
+
